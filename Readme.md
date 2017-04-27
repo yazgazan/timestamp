@@ -3,6 +3,14 @@ timestamp
 
 A simple cli utility to prepend timestamps to commands.
 
+## Instalation
+
+```sh
+go get -u github.com/yazgazan/timestamp
+```
+
+## Usage
+
 ```
 Usage of timestamp:
   -delta
@@ -13,7 +21,7 @@ Usage of timestamp:
     	log time relative to start
 ```
 
-Examples:
+## Examples
 
 ```
 $ ./test.sh
