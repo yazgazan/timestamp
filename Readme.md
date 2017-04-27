@@ -1,6 +1,9 @@
 timestamp
 =========
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/yazgazan/timestamp)](https://goreportcard.com/report/github.com/yazgazan/timestamp)
+[![Build Status](https://travis-ci.org/yazgazan/timestamp.svg?branch=master)](https://travis-ci.org/yazgazan/timestamp)
+
 A simple cli utility to prepend timestamps to commands.
 
 ## Instalation
