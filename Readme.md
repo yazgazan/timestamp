@@ -5,6 +5,8 @@ A simple cli utility to prepend timestamps to commands.
 
 ## Instalation
 
+Requires go 1.6 or greater.
+
 ```sh
 go get -u github.com/yazgazan/timestamp
 ```

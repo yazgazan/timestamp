@@ -1,9 +1,8 @@
 language: go
 go:
-    - 1.8
-    - 1.7
     - 1.6
-    - 1.5
+    - 1.7
+    - 1.8
 
 before_install:
     - go get -u github.com/alecthomas/gometalinter
@@ -12,4 +11,5 @@ before_install:
 script:
     - go build
     - gometalinter --vendored-linters ./...
+    - bash test.sh
 
